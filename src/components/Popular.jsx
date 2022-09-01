@@ -14,7 +14,7 @@ function Popular() {
   const getPopular = async () => {
     const checkStorage = localStorage.getItem("popular"); //Instead of loading our API everytime we load and finish our 150 load free access per day we can save it in our local storage and use it
 
-    if (checkStorage) {
+    if (checkStorage !== null) {
       setPopular(JSON.parse(checkStorage));
     } else {
       const api = await fetch(
