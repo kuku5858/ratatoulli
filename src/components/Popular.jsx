@@ -33,8 +33,8 @@ function Popular() {
       <h3>Popular Picks</h3>
       <Splide
         options={{
-          perPage: 4,
-          gap: "5rem",
+          perPage: 3,
+          gap: "2rem",
           arrows: false,
           pagination: false,
           drag: "free",
@@ -59,7 +59,7 @@ function Popular() {
 }
 
 const Wrapper = styled.div`
-  margin: 4rem orem;
+  margin: 4rem 0rem 7.5rem 0rem;
 `;
 
 const Card = styled.div`
@@ -84,7 +84,7 @@ const Card = styled.div`
     transform: translate(-50%, 0%);
     color: white;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
     height: 40%;
     display: flex;

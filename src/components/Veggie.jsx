@@ -34,7 +34,7 @@ function Veggie() {
       <Splide
         options={{
           perPage: 3,
-          gap: "5rem",
+          gap: "2rem",
           arrows: false,
           pagination: false,
           drag: "free",
@@ -59,7 +59,7 @@ function Veggie() {
 }
 
 const Wrapper = styled.div`
-  margin: 4rem orem;
+margin-top: 4rem;
 `;
 
 const Card = styled.div`
@@ -84,7 +84,7 @@ const Card = styled.div`
     transform: translate(-50%, 0%);
     color: white;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
     height: 40%;
     display: flex;
